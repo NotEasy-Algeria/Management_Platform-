@@ -1,0 +1,136 @@
+$ cd /workspace/uploads && ls -la
+total 31444
+drwxr-xr-x 641 root root 10657792 Sep  2 02:08 .
+drwxr-xr-x 695 root root 10887168 Sep  2 02:08 ..
+drwxr-xr-x 640 root root 10653696 Sep  2 02:08 macreche V2
+$ find /workspace/uploads -type f -name "*.json" -o -name "*.js" -o -name "*.jsx" -o -name "*.ts" -o -name "*.tsx" | head -20
+
+/workspace/uploads/macreche V2/.storage/11/0bde49c3/Login.tsx
+/workspace/uploads/macreche V2/.storage/12/9ec726f3/About.tsx
+/workspace/uploads/macreche V2/.storage/14/eeae3de5/PreRegistration.tsx
+/workspace/uploads/macreche V2/.storage/15/e380ebab/Activities.tsx
+/workspace/uploads/macreche V2/.storage/16/58d9e0e7/Dashboard.tsx
+/workspace/uploads/macreche V2/.storage/18/b2d76adf/ChildrenManagement.tsx
+/workspace/uploads/macreche V2/.storage/19/6e732233/Dashboard.tsx
+/workspace/uploads/macreche V2/.storage/2/cffb87f5/test-d54eac1f-2b06-4e34-a072-f5bae1a09f74.json
+/workspace/uploads/macreche V2/.storage/21/552842f9/AdminLayout.tsx
+/workspace/uploads/macreche V2/.storage/22/775c79d1/ParentLayout.tsx
+/workspace/uploads/macreche V2/.storage/23/84f262e3/AdminLayout.tsx
+/workspace/uploads/macreche V2/.storage/26/0c292b51/Team.tsx
+/workspace/uploads/macreche V2/.storage/27/44fcdbbd/Pricing.tsx
+/workspace/uploads/macreche V2/.storage/28/d1cd06b6/Contact.tsx
+/workspace/uploads/macreche V2/.storage/29/439fb30f/FAQ.tsx
+/workspace/uploads/macreche V2/.storage/30/cd314adf/DocumentsManagement.tsx
+/workspace/uploads/macreche V2/.storage/31/4fa2cd0a/CoursesManagement.tsx
+/workspace/uploads/macreche V2/.storage/33/178b2ef9/App.tsx
+/workspace/uploads/macreche V2/.storage/34/51e128a2/EducatorsManagement.tsx
+/workspace/uploads/macreche V2/.storage/35/40a6a998/ScheduleManagement.tsx
+$ cd "/workspace/uploads/macreche V2" && ls -la
+
+total 31212
+drwxr-xr-x 640 root root 10653696 Sep  2 02:08 .
+drwxr-xr-x 641 root root 10657792 Sep  2 02:08 ..
+drwxr-xr-x 176 root root   991232 Sep  2 02:08 .storage
+drwxr-xr-x   9 root root   602112 Sep  2 02:08 build
+drwxr-xr-x  13 root root  1802240 Sep  2 02:08 cover
+drwxr-xr-x 444 root root  7254016 Sep  2 02:08 workspace
+$ cd "/workspace/uploads/macreche V2" && find . -name "package.json" -o -name "*.json" | head -10
+
+./.storage/2/cffb87f5/test-d54eac1f-2b06-4e34-a072-f5bae1a09f74.json
+./workspace/.MGXEnv.json
+./workspace/.MGXTools/72a555c17aec437bbd097d54fdc9d7e4.json
+./workspace/.timeline.json
+./workspace/shadcn-ui/components.json
+./workspace/shadcn-ui/package.json
+./workspace/shadcn-ui/template_config.json
+./workspace/shadcn-ui/tsconfig.app.json
+./workspace/shadcn-ui/tsconfig.json
+./workspace/shadcn-ui/tsconfig.node.json
+$ cd "/workspace/uploads/macreche V2/workspace" && ls -la
+
+total 24558
+drwxr-xr-x 444 root root  7254016 Sep  2 02:08 .
+drwxr-xr-x 640 root root 10653696 Sep  2 02:08 ..
+-rw-r--r--   1 root root  2836158 Sep  2 02:08 .MGXEnv.json
+drwxr-xr-x   3 root root     8192 Sep  2 02:08 .MGXTools
+drwxr-xr-x 307 root root  2752512 Sep  2 02:08 .git
+-rw-r--r--   1 root root     1472 Sep  2 02:08 .gitattributes
+-rw-r--r--   1 root root      476 Sep  2 02:08 .gitignore
+-rw-r--r--   1 root root     1147 Sep  2 02:08 .timeline.json
+-rw-r--r--   1 root root     3703 Sep  2 02:08 .wiki.md
+drwxr-xr-x 130 root root  1634304 Sep  2 02:08 shadcn-ui
+$ cd "/workspace/uploads/macreche V2/workspace" && find . -name "package.json" -o -name "src" -type d
+
+./shadcn-ui/package.json
+./shadcn-ui/src
+$ cd "/workspace/uploads/macreche V2/workspace/shadcn-ui/src" && ls -la
+
+total 2929
+drwxr-xr-x 100 root root  692224 Sep  2 02:08 .
+drwxr-xr-x 130 root root 1634304 Sep  2 02:08 ..
+-rw-r--r--   1 root root       0 Sep  2 02:08 App.css
+-rw-r--r--   1 root root    4932 Sep  2 02:08 App.tsx
+drwxr-xr-x  60 root root  323584 Sep  2 02:08 components
+drwxr-xr-x   3 root root    8192 Sep  2 02:08 contexts
+drwxr-xr-x   5 root root   20480 Sep  2 02:08 hooks
+-rw-r--r--   1 root root    2235 Sep  2 02:08 index.css
+drwxr-xr-x   4 root root   20480 Sep  2 02:08 lib
+-rw-r--r--   1 root root     161 Sep  2 02:08 main.tsx
+drwxr-xr-x  26 root root  290816 Sep  2 02:08 pages
+-rw-r--r--   1 root root      38 Sep  2 02:08 vite-env.d.ts
+$ cd "/workspace/uploads/macreche V2/workspace/shadcn-ui/src" && find . -name "*.tsx" -o -name "*.jsx" | head -10
+
+./App.tsx
+./components/AdminLayout.tsx
+./components/ConfirmDialog.tsx
+./components/ErrorMessage.tsx
+./components/Footer.tsx
+./components/LoadingSpinner.tsx
+./components/Navbar.tsx
+./components/ParentLayout.tsx
+./components/ProtectedRoute.tsx
+./components/ui/accordion.tsx
+$ cp -r "/workspace/uploads/macreche V2/workspace/shadcn-ui" /workspace/creche-platform
+
+$ cd /workspace/creche-platform && ls -la
+
+total 13712
+drwxr-xr-x 117 root root   954368 Sep  2 02:09 .
+drwxr-xr-x 824 root root 12521472 Sep  2 02:09 ..
+-rw-r--r--   1 root root      253 Sep  2 02:08 .gitignore
+drwxr-xr-x   3 root root     8192 Sep  2 02:09 .mgx
+-rw-r--r--   1 root root     8706 Sep  2 02:08 DEPLOYMENT.md
+-rw-r--r--   1 root root     1138 Sep  2 02:09 README.md
+-rw-r--r--   1 root root      414 Sep  2 02:08 components.json
+drwxr-xr-x   3 root root     8192 Sep  2 02:09 database
+drwxr-xr-x   3 root root     8192 Sep  2 02:09 dist
+-rw-r--r--   1 root root      789 Sep  2 02:08 eslint.config.js
+-rw-r--r--   1 root root      778 Sep  2 02:08 index.html
+-rw-r--r--   1 root root     2776 Sep  2 02:09 package.json
+-rw-r--r--   1 root root   184790 Sep  2 02:09 pnpm-lock.yaml
+-rw-r--r--   1 root root       80 Sep  2 02:09 postcss.config.js
+drwxr-xr-x   3 root root     8192 Sep  2 02:09 public
+drwxr-xr-x  33 root root   323584 Sep  2 02:09 src
+-rw-r--r--   1 root root     2836 Sep  2 02:09 tailwind.config.ts
+-rw-r--r--   1 root root      818 Sep  2 02:09 template_config.json
+-rw-r--r--   1 root root      652 Sep  2 02:09 tsconfig.app.json
+-rw-r--r--   1 root root      381 Sep  2 02:09 tsconfig.json
+-rw-r--r--   1 root root      481 Sep  2 02:09 tsconfig.node.json
+-rw-r--r--   1 root root      430 Sep  2 02:09 vite.config.ts
+$ cd /workspace/creche-platform/src/pages && find . -name "*.tsx" | head -15
+
+./About.tsx
+./Activities.tsx
+./Contact.tsx
+./FAQ.tsx
+./Index.tsx
+./Login.tsx
+./NotFound.tsx
+./PreRegistration.tsx
+./Pricing.tsx
+./Team.tsx
+./admin/ChildrenManagement.tsx
+./admin/CoursesManagement.tsx
+./admin/Dashboard.tsx
+./admin/DocumentsManagement.tsx
+./admin/EducatorsManagement.tsx

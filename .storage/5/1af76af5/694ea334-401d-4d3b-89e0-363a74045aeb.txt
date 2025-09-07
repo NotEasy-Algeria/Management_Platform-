@@ -1,0 +1,48 @@
+$ cd /workspace/uploads && ls -la
+total 31444
+drwxr-xr-x 641 root root 10657792 Sep  2 02:08 .
+drwxr-xr-x 695 root root 10887168 Sep  2 02:08 ..
+drwxr-xr-x 640 root root 10653696 Sep  2 02:08 macreche V2
+$ find /workspace/uploads -type f -name "*.json" -o -name "*.js" -o -name "*.jsx" -o -name "*.ts" -o -name "*.tsx" | head -20
+
+/workspace/uploads/macreche V2/.storage/11/0bde49c3/Login.tsx
+/workspace/uploads/macreche V2/.storage/12/9ec726f3/About.tsx
+/workspace/uploads/macreche V2/.storage/14/eeae3de5/PreRegistration.tsx
+/workspace/uploads/macreche V2/.storage/15/e380ebab/Activities.tsx
+/workspace/uploads/macreche V2/.storage/16/58d9e0e7/Dashboard.tsx
+/workspace/uploads/macreche V2/.storage/18/b2d76adf/ChildrenManagement.tsx
+/workspace/uploads/macreche V2/.storage/19/6e732233/Dashboard.tsx
+/workspace/uploads/macreche V2/.storage/2/cffb87f5/test-d54eac1f-2b06-4e34-a072-f5bae1a09f74.json
+/workspace/uploads/macreche V2/.storage/21/552842f9/AdminLayout.tsx
+/workspace/uploads/macreche V2/.storage/22/775c79d1/ParentLayout.tsx
+/workspace/uploads/macreche V2/.storage/23/84f262e3/AdminLayout.tsx
+/workspace/uploads/macreche V2/.storage/26/0c292b51/Team.tsx
+/workspace/uploads/macreche V2/.storage/27/44fcdbbd/Pricing.tsx
+/workspace/uploads/macreche V2/.storage/28/d1cd06b6/Contact.tsx
+/workspace/uploads/macreche V2/.storage/29/439fb30f/FAQ.tsx
+/workspace/uploads/macreche V2/.storage/30/cd314adf/DocumentsManagement.tsx
+/workspace/uploads/macreche V2/.storage/31/4fa2cd0a/CoursesManagement.tsx
+/workspace/uploads/macreche V2/.storage/33/178b2ef9/App.tsx
+/workspace/uploads/macreche V2/.storage/34/51e128a2/EducatorsManagement.tsx
+/workspace/uploads/macreche V2/.storage/35/40a6a998/ScheduleManagement.tsx
+$ cd "/workspace/uploads/macreche V2" && ls -la
+
+total 31212
+drwxr-xr-x 640 root root 10653696 Sep  2 02:08 .
+drwxr-xr-x 641 root root 10657792 Sep  2 02:08 ..
+drwxr-xr-x 176 root root   991232 Sep  2 02:08 .storage
+drwxr-xr-x   9 root root   602112 Sep  2 02:08 build
+drwxr-xr-x  13 root root  1802240 Sep  2 02:08 cover
+drwxr-xr-x 444 root root  7254016 Sep  2 02:08 workspace
+$ cd "/workspace/uploads/macreche V2" && find . -name "package.json" -o -name "*.json" | head -10
+
+./.storage/2/cffb87f5/test-d54eac1f-2b06-4e34-a072-f5bae1a09f74.json
+./workspace/.MGXEnv.json
+./workspace/.MGXTools/72a555c17aec437bbd097d54fdc9d7e4.json
+./workspace/.timeline.json
+./workspace/shadcn-ui/components.json
+./workspace/shadcn-ui/package.json
+./workspace/shadcn-ui/template_config.json
+./workspace/shadcn-ui/tsconfig.app.json
+./workspace/shadcn-ui/tsconfig.json
+./workspace/shadcn-ui/tsconfig.node.json

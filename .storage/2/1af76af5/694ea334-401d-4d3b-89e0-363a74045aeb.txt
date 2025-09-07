@@ -1,0 +1,5 @@
+$ cd /workspace/uploads && ls -la
+total 31444
+drwxr-xr-x 641 root root 10657792 Sep  2 02:08 .
+drwxr-xr-x 695 root root 10887168 Sep  2 02:08 ..
+drwxr-xr-x 640 root root 10653696 Sep  2 02:08 macreche V2
